@@ -1,0 +1,21 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: aws-cli
+  #namespace: kiam-example
+  labels:
+    app: aws-cli
+spec:
+  containers:
+  - image: brentley/awscli
+    #command:
+    #  - "aws"
+    #  - "s3"
+    #  - "ls"
+    command:
+       - sleep
+       - "3600"    
+    name: aws-cli
+  restartPolicy: Never
+  terminationGracePeriodSeconds: 30
