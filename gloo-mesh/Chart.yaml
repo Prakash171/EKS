@@ -1,0 +1,8 @@
+apiVersion: v2
+dependencies:
+- name: gloo-mesh-crds
+  repository: https://storage.googleapis.com/gloo-mesh/gloo-mesh-crds
+  version: 1.1.2
+description: Helm chart for Gloo Mesh.
+name: gloo-mesh
+version: 1.1.2

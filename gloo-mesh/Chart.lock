@@ -1,0 +1,6 @@
+dependencies:
+- name: gloo-mesh-crds
+  repository: https://storage.googleapis.com/gloo-mesh/gloo-mesh-crds
+  version: 1.1.2
+digest: sha256:26ede0d7d7fbae3198c7ba527d47ef95988af87d068d7b4c84374f39fdf54064
+generated: "2021-10-07T14:45:48.834162876Z"
